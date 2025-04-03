@@ -1,0 +1,25 @@
+From 3466cf5f2955db998bc57504d22d4bd2a25e6844 Mon Sep 17 00:00:00 2001
+From: MathiasDPX <mathias@dupeux.net>
+Date: Thu, 3 Apr 2025 19:08:41 +0200
+Subject: [PATCH 2/2] enable console
+
+---
+ addons/console/console.gd | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/addons/console/console.gd b/addons/console/console.gd
+index 369bb1a..eae3c38 100644
+--- a/addons/console/console.gd
++++ b/addons/console/console.gd
+@@ -128,7 +128,7 @@ func _input(event: InputEvent) -> void :
+                     toggle_console()
+                     toggle_size()
+             get_tree().get_root().set_input_as_handled()
+-        elif (event.get_physical_keycode_with_modifiers() == KEY_ESCAPE && control.visible):
++        elif (event.get_physical_keycode_with_modifiers() == KEY_ESCAPE):
+             if (event.pressed):
+                 toggle_console()
+                 get_tree().get_root().set_input_as_handled()
+-- 
+2.45.1.windows.1
+
