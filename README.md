@@ -1,6 +1,6 @@
 ![Modloader banner](https://github.com/user-attachments/assets/424d6654-bdc6-4033-920e-1922c196d6e5)
 
-# The Oficial Mod Loader for Replicube (DEMO)
+# Mod Loader for Replicube (DEMO)
 
 ## 🚀 Introduction
 
